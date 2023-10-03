@@ -1,0 +1,740 @@
+body{
+    font-family:  Helvetica , Helvetica, Arial, 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+
+}
+
+element {
+
+}
+.promotion {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+
+}
+.Main-Container{
+    margin: 0;
+    display: block;
+
+}
+.navigation{
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    background: #0065c3;
+    top: 0;
+    z-index: 400;
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+
+
+
+}
+.navigation a{
+  color: white;
+  text-decoration: none
+
+}
+.navigation li{
+  padding-left:19px;
+  font-family:  'Poppins', sans-serif;
+  
+
+}
+.navigation-list{
+  position: relative;
+  display: flex;
+  width: 95%;
+  margin-left: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-logo{
+  margin-right: 48px;
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  
+
+    
+}
+.collapsible {
+   
+    cursor: pointer;
+    padding-right: 10px;    
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 14px;
+    background: none;
+    color: white;
+    font-weight: 800;
+    font-family:  'Poppins', sans-serif;
+   
+  }
+  .buy{
+    
+    font-size: 14px;
+    font-weight: 900;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 582px;
+    
+    padding: .4em 1.85em;
+    
+
+  }
+  .list-button{
+    margin-top: 20px;
+  }
+  .list-item{
+    margin-top: 20px;
+  }
+  .cookie{
+    position: fixed;
+    margin-top: 643px;
+    margin-left: 14px;
+    z-index: 55;
+  }
+  #apple-music{
+    background-image: url(background.png);
+    height: 678px;
+    justify-content: end;
+    overflow: hidden;
+  }
+  .apple-container{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .apple-right{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 160px;
+    margin-right: 184px;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+
+  }
+  .apple-right img{
+    width: 74%;
+    height: auto;
+    margin-right: 120px;
+    margin-bottom: 40px;
+  }
+  .apple-right p{
+    padding-right: 100px;
+  }
+  .apple-right a{
+    padding: 10px;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: -55px;
+    width: 12.1em;
+    height: 2.1em;
+    margin-bottom: 40px;
+    padding: .4em 1.85em;
+    margin-left: -80px;
+  }
+  .apple-right button{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-family:  'Poppins', sans-serif;
+    margin-top: -3px;
+
+  }
+  .bottles img{
+    width: 846px;
+    height: auto;
+    padding-top: 10px;
+   margin-right: -50px;
+   margin-left: -70px;
+   margin-top: 150px;
+   overflow: hidden;
+  }
+  #zero-sugar{
+    background: black;
+    height: 668px;
+    width: 100vw;
+
+  }
+  #sugar-can{
+    width: 62%;
+    height: auto;
+    padding-left: 48px;
+    padding-bottom: 0px;
+    margin-bottom: -408px;
+    margin-top: -100px;
+  }
+  #new-improved{
+    width: 12%;
+    height: auto;
+    padding-right: 50px;
+    margin-left: -425px;
+    padding-bottom: 25px;
+  }
+  #zero-img{
+    margin-bottom: 0px;
+    margin-top: -176px;
+    width: 31%;
+    height: auto;
+    margin-left: 789px;
+  }
+  #try-img{
+   
+    width: 23%;
+    height: auto;
+    margin-left: 842px;
+    margin-top: 30px;
+  }
+  #zero-video-container{
+    width: 498px;
+    height: 163px;
+    overflow: hidden;
+    margin-left: 789px;
+    display: flex;
+  }
+  .promo-video1{
+    text-align: center;
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: center;
+    max-width: calc(263.9px + 4.5rem);
+    max-height: 163px;
+
+  }
+  .promotion{
+    width: 232.6px;
+    height: 126.3px;
+    min-height: unset;
+    max-width: 263.9px;
+    display: flex;
+    
+  }
+  .thumbnail{
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+
+  }
+  .thumbnail img{
+    width: 199%;
+    margin-right: 0;
+    margin-left: -24px;
+    margin-top: 23px;
+
+
+  }
+  .watch-now{
+    position: absolute;
+    text-align: center;
+    background: #0065c3c7;
+    z-index: 9;
+    width: 101px;
+    height: 68px;
+    margin-left: 53px;
+    margin-top: 43px;
+    
+
+  }
+ 
+
+  
+  .watch-now button{
+    width: 100%;
+    height: auto;
+    background: transparent;
+    border: none;
+
+  }
+  .watch-now img{
+    width: 34%;
+    margin-top: 7px;
+    margin-left: -5px;
+    margin-bottom: -12px;
+
+  }
+  .watch-now p{
+    color: white;
+    font-size: 12px;
+    font-family:  'Poppins', sans-serif;
+  }
+  .promo-right{
+    margin-left: 10px;
+  }
+
+
+  #pepsi_nitro{
+    width: 100%;
+    height: 690.5px;
+    overflow: hidden;
+    
+  }
+
+  .pepsi-nitro-container{
+    display: flex;
+
+
+  }
+  .pepsi-nitro-container img{
+    margin-left: -42px;
+    z-index: 10;
+    position: absolute;
+  }
+  .intro-flex-right{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+   
+    
+  }
+  .intro-flex-right img{
+    width: 28%;
+    margin-left: 753px;
+    margin-top: 185px;
+    z-index: 12;
+    position: relative;
+  }
+  .intro-flex-right h2{
+    padding-left: 819px;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    z-index: 12;
+    position: relative;
+    letter-spacing: -1px;
+    font-size: 19px;
+    margin-top: 0.77px;
+  }
+.intro-flex-child img{
+  width: 28%;
+  margin-left: 337px;
+  margin-top: -436px;
+  z-index: 14;
+  position: relative;
+}
+.intro-flex-right a{
+  z-index: 14;
+  position: absolute;
+  margin-left: 890px;
+  margin-top: 475px;
+  font-size: 14px;
+  font-weight: 900;
+  border: 2px solid white;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  height: 25px;
+  width: 127px;
+  align-items: center;
+
+}
+
+
+#better-with-pepsi{
+  position: relative;
+  width: 100%;
+  height: 700px;
+  margin-top: -22px;
+  overflow: hidden;
+  background:  #265cc5;
+
+
+}
+.better-with-pepsi-bg{
+  
+  
+
+}
+.better-with-pepsi-bg-img{
+  width: 65%;
+  overflow:hidden;
+  margin-left: 537px;
+}
+.better-with-pepsi-bg-img img{
+  margin-left: -701px;
+  width: 2292px;
+  height: auto;
+
+}
+
+.better-with-pepsi-tagline{
+  margin-top: -600px;
+}
+.better-with-pepsi-tagline img{
+  width: 600px;
+  padding-left: 940px;
+  margin-top: 330px;
+}
+
+.better-with-pepsi-video-container{
+  margin-top: -647px;
+  justify-content: center;
+  align-items: center;
+}
+.slide__list{
+  color: white;
+  list-style: none;
+ 
+  
+}
+.better-with-pepsi-video-title{
+  background: #1437bf;
+  text-align: center;
+  line-height: 26px;
+  display: inline-block;
+  height: 40px;
+  padding-left: 113px;
+  padding-right: 107px;
+  margin-top: -6px;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+.better-with-pepsi-video_title{
+  background: #1437bf;
+  text-align: center;
+  line-height: 26px;
+  display: inline-block;
+  height: 40px;
+  padding-left: 113px;
+  padding-right: 74px;
+  margin-top: -6px;
+  margin-bottom: 40px;
+  font-weight: 700;
+
+}
+
+
+#mango{
+  background: #2c629d url(https://www.pepsi.com/en-us/uploads/images/pepsi-mango/mango-bg.jpg) no-repeat fixed center;
+  height: 49vw;
+background-size: cover;
+}
+#mango img{
+  display: block;
+}
+.mango-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.mango-headline{
+  width: 28%;
+
+}
+.mango-headline img{
+  width: 433px;
+  padding-left: 46px;
+  z-index: 20;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: -110px;
+}
+.mango-bottom-line img{
+  width: 481px;
+  padding-left: 45px;
+  padding-top: 330px;
+  z-index: 20;
+  position: relative;
+}
+.mango-bottom-bg img{
+  width: 95%;
+  margin-top: -568px;
+}
+.mango-dots img{
+  width: 658px;
+  padding-left: 897px;
+  margin-top: -301px;
+}
+
+.mango-bottom-Right img{
+  width: 988px;
+  margin-top: -732px;
+  padding-left: 549px;
+
+}
+
+.cherry-video video{
+  width: 100%;
+  height: auto;
+}
+#thats-what-i-like{
+  background-color: #004ca7;
+  margin-top: -6px;
+  display: flex;
+
+}
+.thats-what-left img{
+  padding-top: 88px;
+  width: 806px;
+  margin-top: 3px;
+  margin-left: 37px;
+}
+.thats-what-right{
+  margin-left: 0px;
+  
+}
+.thats-what-right img{
+  width: 510px;
+  margin-top: 242px;
+}
+
+#fav-flavours{
+  height: 528px;
+  margin-top: -3px;
+  overflow: hidden;
+}
+#fav-flavours img{
+  margin-top: -568px;
+}
+
+.fav-flavours-right img{
+  width: 650px;
+  margin-left: -101px
+}
+.fav-flavours-container{
+  margin-top: -100px;
+  display: flex;
+
+}
+.fav-flavours-left{
+  margin-top:  -342px;
+  margin-left: 167px;
+  width: 50%;
+  color: white;
+}
+.fav-flavours-title{
+  width: 100%;
+}
+.fav-flavours-right{
+  width: 50%;
+}
+h2{
+  font-size: 55px;
+  line-height: 1em;
+width: 100%;
+  position: relative;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+}
+.fav-flavours-left p{
+  margin-top: -30px;
+}
+
+    
+   
+
+#butt{
+  background: transparent;
+  color: white;
+  font-size: 13px;
+    font-weight: 900;
+    border: 2px solid white;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 20px;
+    padding: 7px;
+    font-family: 'Roboto', sans-serif;
+}
+#STAY{
+  color: #0065c3;
+  margin-left: 345px;
+}
+.social-items{
+  display: flex;
+  flex-flow: row nowrap;
+width: 90%;
+height: auto;
+margin: auto;
+}
+.media-img{
+  display: block;
+  width: 50%;
+  height: 50%;
+}
+.twitter{
+  flex: auto;
+width: 276.467px;
+position: relative;
+overflow: hidden;
+}
+.social-img{
+  width: 276px;
+  height: auto;
+}
+/*.twitter ::after{
+  background-image: url(https://www.pepsi.com/en-us/assets/images/icon-twitter.19d7e9de57475b8de6a58e97e7f52dfb.svg);
+  content: "";
+position: absolute;
+left: 1rem;
+bottom: 1rem;
+display: block;
+width: 2rem;
+height: 2rem;
+opacity: .9;
+}
+.facebook ::after{
+  background-image: url(https://www.pepsi.com/en-us/assets/images/icon-facebook.cf7efb08f7b9eaa4f8c2765e29c33bdc.svg);
+  content: "";
+position: absolute;
+left: 1rem;
+bottom: 1rem;
+display: block;
+width: 2rem;
+height: 2rem;
+opacity: .9;
+/*margin-bottom: -5604px;
+margin-left: 353px;
+
+}
+.insta ::after{
+  background-image: url(https://www.pepsi.com/en-us/assets/images/icon-instagram.0e3d410649ac6ffeefa45808120e1e95.svg);
+  content: "";
+position: absolute;
+left: 1rem;
+bottom: 1rem;
+display: block;
+width: 2rem;
+height: 2rem;
+opacity: .9;
+margin-bottom: -5604px;
+margin-left: 633px;
+
+}
+.youtube ::after{
+  background-image: url(https://www.pepsi.com/en-us/assets/images/icon-youtube.0d901105ba15121b08030e8c9d1823ad.svg);
+  content: "";
+position: absolute;
+left: 1rem;
+bottom: 1rem;
+display: block;
+width: 2rem;
+height: 2rem;
+opacity: .9;
+margin-bottom: -9604px;
+margin-left: 923px;
+}
+.tictok ::after{
+background-image: url(https://www.pepsi.com/en-us/assets/images/icon-tiktok.svg);
+content: "";
+position: absolute;
+left: 1rem;
+bottom: 1rem;
+display: block;
+width: 2rem;
+height: 2rem;
+opacity: .9;
+margin-bottom: -5590px;
+margin-left: 1180px;
+}*/
+.social-icons {
+  display: flex;
+  gap: 145px;
+  margin-top: -31px;
+  padding-bottom: 0px;
+}
+.social-icons img{
+  width: 28px;
+  z-index: 10;
+  position: relative;
+  margin-left: 100px;
+  margin-top: -30px;
+}
+
+.footer{
+position: relative;
+width: auto;
+height: 18rem;
+
+
+flex-direction: column;
+background: #0065c3;
+color: white;
+}
+.footer__container{
+  display: flex;
+  
+}
+.footer__logo img{
+  width: 70%;
+  padding-left: 48px;
+  padding-top: 92px;
+}
+.footer__linklist {
+  padding-left: 192px;
+margin-top: 124px;
+  display: flex;
+  gap: 50px;
+}
+.footer__linklist li,a{
+  list-style: none;
+  text-decoration: none;
+  font-weight: 600;
+}
+.footer__container-right{
+  
+  margin-top: 90px;
+  margin-left: 360px;
+  margin-bottom: 10px;
+}
+.footer__social-container{
+  display: flex;
+  margin-top: 50px;
+  gap: 20px;
+  align-items: center;
+}
+.footer__social-container img{
+  width: 30px;
+}
+.footer a{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+
+/*.footer__link-itemlink2{
+  padding-left: 139px;
+
+}
+.footer__link-itemlink{
+  margin-left: 50px;
+
+
+}*/
+.news{
+  background: transparent;
+  color: white;
+  font-size: 13px;
+    font-weight: 900;
+    border: 2px solid white;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 20px;
+    padding: 7px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
